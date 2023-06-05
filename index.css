@@ -1,0 +1,41 @@
+body {
+    background-image: url("Background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+img {
+    height: 500px;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+  }
+
+  ol a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;  
+    padding: 13px 13px
+  }
+  
+  li a:hover {
+      background-color: black;
+      color: white;
+  }
+
+  .Title {
+    padding-top: 5px;
+    margin-top: 50px;
+}
